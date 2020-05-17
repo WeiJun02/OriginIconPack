@@ -17,4 +17,4 @@
 [![联系我](https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91-QQ%E7%BE%A4-lightgrey)](//shang.qq.com/wpa/qunwpa?idkey=b84ad156e9d6dc26527756186a062545b759ad95d7adaa46660f010950210fac)
 
 酷安发布主页：<https://www.coolapk.com/apk/com.origin.icon.pack>
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=b84ad156e9d6dc26527756186a062545b759ad95d7adaa46660f010950210fac"><img border="0" src="pub.idqqimg.com/wpa/images/group.png" alt="BlacksoftTechClub  🇨🇳加" title="BlacksoftTechClub  🇨🇳加"></a>
+[![BlacksoftTechClub  🇨🇳加](pub.idqqimg.com/wpa/images/group.png "BlacksoftTechClub  🇨🇳加")](//shang.qq.com/wpa/qunwpa?idkey=b84ad156e9d6dc26527756186a062545b759ad95d7adaa46660f010950210fac)
