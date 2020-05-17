@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+attr? rfs_barColor
+attr? rfs_handleNormalColor
+attr? rfs_handlePressedColor
+attr? rfs_hideDelay
+attr? rfs_hidingEnabled
+attr? rfs_touchTargetWidth
+string app_name
+styleable RecyclerFastScroller rfs_barColor rfs_handleNormalColor rfs_handlePressedColor rfs_touchTargetWidth rfs_hideDelay rfs_hidingEnabled

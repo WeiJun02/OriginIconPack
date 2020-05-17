@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#e5e5e5</color>
+
+    <!-- 主题颜色 -->
+    <color name="colorAccent">#267DF2</color>
+    <color name="colorAccentTap">#882d9bf3</color>
+    <color name="backgroundColor">#fafafa</color>
+    <color name="white">#ffffff</color>
+
+    <!-- 细节颜色 -->
+    <color name="primary">#267DF2</color>
+
+    <!-- 字体颜色 -->
+    <color name="black_text">#222222</color>
+    <color name="text_color">#666666</color>
+
+    <color name="fastscroll_thumb_inactive_color">#666666</color>
+    <color name="fastscroll_thumb_active_color">#267DF2</color>
+
+</resources>

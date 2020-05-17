@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorPrimary">@color/black_text</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DialogActivity" parent="Theme.AppCompat.Light.Dialog">
+        <item name="textColorAlertDialogListItem">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="windowNoTitle">true</item><!-- Activity无标题-->
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+    <style name="AboutContent" parent="android:Widget">
+        <item name="android:paddingLeft">@dimen/card_little_margin</item>
+        <item name="android:paddingRight">@dimen/card_little_margin</item>
+        <item name="android:paddingTop">@dimen/cards_spacing</item>
+        <item name="android:paddingBottom">@dimen/cards_spacing</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="fab_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+</resources>

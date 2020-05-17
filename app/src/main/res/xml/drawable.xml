@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version>1</version>
+
+    <!--title="分类,这里以首字母为例"-->
+    <!--<item drawable="图标文件名字(只能含有小写字母，下划线，数字，必须以字母开头)，不含后缀名" />-->
+
+    <category title="新增" />
+
+    <category title="已是圆形/自适应" />
+    <item drawable="baidu_map" name="百度地图" />
+    <item drawable="tencent_sports" name="腾讯体育" />
+    <item drawable="wechat" name="微信" />
+    <item drawable="jike" name="即刻" />
+    <item drawable="starbucks" name="星巴克" />
+    <item drawable="shadowfight3" name="暗影格斗3" />
+    <item drawable="zhuanzhuan" name="转转" />
+    <item drawable="netease_cloudmusic" name="网易云音乐" />
+    <item drawable="meituxiuxiu" name="美图秀秀" />
+    <item drawable="jd" name="京东" />
+    <item drawable="facebook" name="Facebook" />
+    <item drawable="instagram" name="Instagram" />
+    <item drawable="alipay" name="支付宝" />
+    <item drawable="pixlr" name="Pixlr" />
+    <item drawable="douyin" name="抖音" />
+
+
+    <category title="应用" />
+    <item drawable="com_mobile_ticket" name="铁路12306" />
+    <item drawable="blued" name="Blued" />
+    <item drawable="aptoide" name="Aptoide" />
+    <item drawable="meituanwaimai"  name="美团外卖" />
+    <item drawable="aloha" name="Aloha" />
+    <item drawable="apkpure"  name="Apkpure" />
+    <item drawable="baozoumanhua" name="暴走漫画" />
+    <item drawable="beautycam" name="美颜相机" />
+    <item drawable="changba" name="唱吧" />
+    <item drawable="cmcc" name="中国移动" />
+    <item drawable="com_ktls_fileinfo"  name="储存空间管理" />
+    <item drawable="dangdang"  name="当当" />
+    <item drawable="desmix" name="Desmix" />
+    <item drawable="dianping" name="大众点评" />
+    <item drawable="dolby" name="Dolby" />
+    <item drawable="dolby_1" name="Dolby" />
+    <item drawable="du" name="毒" />
+    <item drawable="etouch_ecalendar" name="中华万年历" />
+    <item drawable="faceu" name="激萌" />
+    <item drawable="fangtang" name="方糖娱乐" />
+    <item drawable="gaode" name="高德地图" />
+    <item drawable="icbc" name="工商银行" />
+    <item drawable="gundongjietu" name="滚动截图" />
+    <item drawable="iqiyi" name="爱奇艺" />
+    <item drawable="ireader" name="掌阅iReader" />
+    <item drawable="jianshu" name="简书" />
+    <item drawable="keep" name="Keep" />
+    <item drawable="kfc" name="肯德基" />
+    <item drawable="koubei" name="口碑" />
+    <item drawable="kuaikan" name="快看漫画" />
+    <item drawable="kuaishou" name="快手" />
+    <item drawable="kugou" name="酷狗音乐" />
+    <item drawable="kuwo" name="酷我音乐" />
+    <item drawable="masterkey" name="WIFI万能钥匙" />
+    <item drawable="meituan" name="美团" />
+    <item drawable="mobike" name="摩拜单车" />
+    <item drawable="moji" name="墨迹天气" />
+    <item drawable="momo" name="陌陌" />
+    <item drawable="ms_excel" name="Excel" />
+    <item drawable="ms_outlook" name="Outlook" />
+    <item drawable="ms_powerpoint" name="PowerPoint" />
+    <item drawable="ms_word" name="Word" />
+    <item drawable="ms_onenote" name="Onenote" />
+    <item drawable="msexcel_" name="Excel旧" />
+    <item drawable="msoutlook_" name="Outlook旧" />
+    <item drawable="mspowerpoint_" name="PowerPoint旧" />
+    <item drawable="msword_" name="Word旧" />
+    <item drawable="msonenote_" name="Onenote旧" />
+    <item drawable="pitu" name="天天P图" />
+    <item drawable="weihenji" name="微痕迹" />
+    <item drawable="qihoo_browser" name="极速浏览器" />
+    <item drawable="quake" name="夸克" />
+    <item drawable="red" name="小红书" />
+    <item drawable="rela" name="Rela" />
+    <item drawable="shanbay_listen" name="扇贝听力" />
+    <item drawable="shanbay_news" name="扇贝阅读" />
+    <item drawable="shanbay_speak" name="扇贝口语" />
+    <item drawable="shanbay_words" name="扇贝单词" />
+    <item drawable="shihuo" name="识货" />
+    <item drawable="sina_weibo" name="新浪微博" />
+    <item drawable="sougoubrowser" name="搜狗浏览器" />
+    <item drawable="tantan" name="探探" />
+    <item drawable="taptap" name="TapTap" />
+    <item drawable="uc" name="UC浏览器" />
+    <item drawable="wps" name="WPS" />
+    <item drawable="xiami" name="虾米音乐" />
+    <item drawable="xiaoyuanshouti" name="小猿搜题" />
+    <item drawable="zol" name="中关村在线" />
+    <item drawable="zuiyou" name="最右" />
+    <item drawable="ccb" name="建设银行" />
+    <item drawable="abchina" name="农业银行" />
+    <item drawable="boc" name="中国银行" />
+    <item drawable="cmb" name="招商银行" />
+    <item drawable="maoyanmovie" name="猫眼电影" />
+    <item drawable="guanzhi" name="观止" />
+    <item drawable="daodai" name="倒带" />
+    <item drawable="shangxianle" name="上线了" />
+    <item drawable="xuexi" name="迅雷" />
+    <item drawable="tim" name="Tim" />
+    <item drawable="neihanduanzi" name="内涵段子" />
+    <item drawable="pipixia" name="皮皮虾" />
+    <item drawable="tianyancha" name="天眼查" />
+    <item drawable="cainiaoguoguo" name="菜鸟果果" />
+    <item drawable="chubao_input" name="触宝输入法" />
+    <item drawable="jd_jinrong" name="京东金融" />
+    <item drawable="luckin_coffee" name="Luckin咖啡" />
+    <item drawable="pp" name="PP助手" />
+    <item drawable="xunlei" name="迅雷" />
+    <item drawable="huasheng_ditie" name="花生地铁" />
+    <item drawable="huasheng_ditie_1" name="花生地铁1" />
+    <item drawable="renren" name="人人视频" />
+    <item drawable="douyv" name="斗鱼" />
+    <item drawable="zaker" name="Zaker" />
+    <item drawable="cbox" name="Cbox" />
+    <item drawable="mcdonalds" name="麦当劳" />
+    <item drawable="heybox" name="小黑盒" />
+    <item drawable="wandoujia" name="豌豆荚" />
+    <item drawable="sougou_input" name="搜狗输入法" />
+    <item drawable="sougou_input_1" name="搜狗输入法1" />
+    <item drawable="viper_fx" name="Viper" />
+    <item drawable="jiaoguan_12123" name="交管12123" />
+    <item drawable="buka" name="布卡漫画" />
+    <item drawable="biubiu" name="BiuBiu加速器" />
+    <item drawable="pinduoduo" name="拼多多" />
+    <item drawable="didi" name="滴滴出行" />
+    <item drawable="xtuone" name="超级课程表" />
+    <item drawable="dingtalk" name="钉钉" />
+    <item drawable="youlinyouke" name="友邻优课" />
+    <item drawable="dingxiangyuan" name="丁香园" />
+    <item drawable="binfen_eng" name="缤纷英语" />
+    <item drawable="baicizhan" name="百词斩" />
+    <item drawable="autohome" name="汽车之家" />
+    <item drawable="chaoxing_study" name="超星学习通" />
+    <item drawable="hupu" name="虎扑" />
+    <item drawable="huya" name="虎牙" />
+    <item drawable="kanlixiang" name="看理想" />
+    <item drawable="ms_office365" name="Office365" />
+    <item drawable="icbc_im" name="工银融e联" />
+    <item drawable="ctcc" name="电信营业厅" />
+    <item drawable="xiachufang" name="下厨房" />
+    <item drawable="picacg" name="绅士漫画" />
+    <item drawable="miaopai" name="秒拍" />
+    <item drawable="weipinhui" name="唯品会" />
+    <item drawable="qvnaerlvxing" name="去哪儿旅行" />
+    <item drawable="xiechenglvxing" name="携程旅行" />
+    <item drawable="toutiao" name="今日头条" />
+    <item drawable="toutiao_lite" name="今日头条极速版" />
+    <item drawable="pipigaoxiao" name="皮皮搞笑" />
+    <item drawable="snapseed" name="Snapseed" />
+    <item drawable="mathstudio_express" name="MathStudioExpress" />
+    <item drawable="wangzheyingdi" name="王者营地" />
+    <item drawable="faceq" name="MYOTee脸萌" />
+    <item drawable="picsart" name="PicsArt美易照片" />
+    <item drawable="youku" name="优酷" />
+    <item drawable="guanchazhe" name="观察者" />
+    <item drawable="ifont" name="爱字体" />
+    <item drawable="unionpay" name="云闪付" />
+    <item drawable="unionpay_1" name="云闪付" />
+    <item drawable="maimai" name="脉脉" />
+    <item drawable="tonghuashun" name="同花顺" />
+    <item drawable="mafengwo" name="马蜂窝" />
+    <item drawable="tubemate" name="TubeMate" />
+    <item drawable="xigua" name="西瓜视频" />
+    <item drawable="meipian" name="美篇" />
+    <item drawable="shuziweiba" name="数字尾巴" />
+    <item drawable="es_explorer" name="ES文件管理器" />
+    <item drawable="kuaiya" name="快牙" />
+    <item drawable="imooc" name="慕课网" />
+    <item drawable="poco_camera" name="POCO相机" />
+    <item drawable="tujia" name="途家民宿" />
+    <item drawable="edu_mooc" name="中国大学MOOC" />
+    <item drawable="mono" name="MONO" />
+    <item drawable="zhixing" name="智行火车票" />
+    <item drawable="via" name="VIA" />
+    <item drawable="haoyoukuaibao" name="好游快爆" />
+    <item drawable="souhu_video" name="搜狐视频" />
+    <item drawable="chengtongnetdisk" name="城通往盘" />
+    <item drawable="duitang" name="堆糖" />
+    <item drawable="tuniuluyou" name="途牛旅游" />
+    <item drawable="cucc" name="中国联通营业厅" />
+    <item drawable="tongchengluyou" name="同程旅游" />
+    <item drawable="youminxingkong" name="游民星空" />
+    <item drawable="xunfeishurufa" name="讯飞输入法" />
+    <item drawable="yangshixinwen" name="央视新闻" />
+    <item drawable="uctoutiao" name="UC头条" />
+    <item drawable="tuchong" name="图虫" />
+    <item drawable="papa_games" name="啪啪游戏厅" />
+    <item drawable="wukongyaokongqi" name="悟空遥控器" />
+    <item drawable="yangshipin" name="央视频" />
+    <item drawable="xinjingbao" name="新京报" />
+    <item drawable="zhiwang" name="知网" />
+    <item drawable="wufan_games" name="悟饭游戏厅" />
+    <item drawable="x_browser" name="X浏览器" />
+    <item drawable="wps_bianqian" name="WPS便签" />
+    <item drawable="woqianbao" name="沃钱包" />
+    <item drawable="chunchundama" name="纯纯打码" />
+    <item drawable="pornhub" name="Porn？？？" />
+    <item drawable="xinhuazidian" name="新华字典" />
+    <item drawable="luzhou" name="绿洲" />
+    <item drawable="root_toolsbox" name="Root工具箱" />
+    <item drawable="kugou_new" name="酷狗音乐概念版" />
+    <item drawable="maoyan_pro" name="猫眼电影PRO" />
+    <item drawable="vue_vlog" name="Vue_Vlog" />
+
+    <category title="谷歌" />
+    <item drawable="google_pinyin" name="谷歌拼音" />
+
+
+    <category title="百度" />
+    <item drawable="baidu" name="手机百度" />
+    <item drawable="baidu_browser" name="百度浏览器" />
+    <item drawable="baidu_map_meizu" name="地图" />
+    <item drawable="baidu_netdisk" name="百度网盘" />
+    <item drawable="baidu_news" name="百度新闻" />
+    <item drawable="baidu_nuomi" name="百度糯米" />
+    <item drawable="baidu_translate" name="百度翻译" />
+    <item drawable="baidu_homework" name="作业帮" />
+    <item drawable="baidu_wenku" name="百度文库" />
+    <item drawable="baidu_wenku_1" name="百度文库" />
+    <item drawable="baidu_tieba" name="百度贴吧" />
+
+    <category title="腾讯" />
+    <item drawable="qq" name="QQ" />
+    <item drawable="qqlite" name="QQ极速版" />
+    <item drawable="tencent_wework" name="企业微信" />
+    <item drawable="qqbrowser" name="QQ浏览器" />
+    <item drawable="qqmail" name="QQ邮箱" />
+    <item drawable="qqmusic" name="QQ音乐" />
+    <item drawable="qzone" name="QQ空间" />
+    <item drawable="tencent_filemanager" name="腾讯文件" />
+    <item drawable="tencentmap" name="腾讯地图" />
+    <item drawable="tencentnews" name="腾讯新闻" />
+    <item drawable="tencent_video" name="腾讯视频" />
+    <item drawable="weiyun" name="腾讯微云" />
+    <item drawable="tencentwesecure" name="腾讯手机管家" />
+    <item drawable="qqreader" name="QQ阅读" />
+    <item drawable="tencent_pangu" name="应用宝" />
+    <item drawable="tencent_karaoke" name="全民K歌" />
+    <item drawable="tencent_weread" name="微信阅读" />
+    <item drawable="tencent_weishi" name="微视" />
+    <item drawable="tencent_cartoon" name="腾讯动漫" />
+    <item drawable="qqtongbu" name="QQ同步助手" />
+    <item drawable="tencent_translator" name="腾讯翻译君" />
+    <item drawable="tencent_yidian" name="腾讯医典" />
+    <item drawable="qqyingyin" name="QQ影音" />
+
+
+    <category title="网易" />
+    <item drawable="netease_cartoonreader" name="网易漫画" />
+    <item drawable="youdao_note" name="有道笔记" />
+    <item drawable="youdaodict" name="有道词典" />
+    <item drawable="youdaotranslate" name="有道翻译" />
+    <item drawable="netease_email" name="网易邮箱" />
+    <item drawable="netease_yanxuan" name="网易严选" />
+    <item drawable="netease_news" name="网易新闻" />
+    <item drawable="netease_dashen" name="网易大神" />
+
+    <category title="阿里" />
+    <item drawable="taobao" name="手机淘宝" />
+    <item drawable="litetaobao" name="淘宝特价版" />
+    <item drawable="tmall" name="天猫" />
+    <item drawable="xianyv" name="闲鱼" />
+    <item drawable="feizhu" name="飞猪" />
+    <item drawable="eleme" name="饿了吗" />
+    <item drawable="alibaba" name="阿里巴巴" />
+    <item drawable="alibaba_1" name="阿里巴巴" />
+
+    <category title="谷歌" />
+    <item drawable="google_settings" name="设置" />
+    <item drawable="google_photos" name="照片" />
+    <item drawable="google_documents" name="文件" />
+    <item drawable="google_contacts" name="人脉" />
+    <item drawable="google_dialer" name="拨号" />
+    <item drawable="google_prebuiltbugle" name="信息" />
+
+    <category title="游戏" />
+    <item drawable="lovelive" name="LoveLive!学园偶像祭" />
+    <item drawable="wodeshijie" name="我的世界" />
+    <item drawable="minecraft" name="Minecraft" />
+    <item drawable="wangzherongyao" name="王者荣耀" />
+    <item drawable="tanchishe" name="贪吃蛇大作战" />
+    <item drawable="ski_safari2" name="滑雪大冒险2" />
+    <item drawable="ski_safari1" name="滑雪大冒险" />
+    <item drawable="fruit_ninja" name="水果忍者" />
+    <item drawable="subway_surf" name="地铁跑酷" />
+    <item drawable="shadowfight2" name="暗影格斗2" />
+    <item drawable="jetpack_joyride" name="疯狂喷气机" />
+    <item drawable="monster_dash" name="怪物狂奔" />
+    <item drawable="age_of_zombies" name="僵尸" />
+    <item drawable="dancing_line" name="跳舞的线" />
+    <item drawable="tencent_pubg" name="和平精英" />
+    <item drawable="bilanhangxian" name="碧蓝航线" />
+    <item drawable="benghuai3" name="崩坏3" />
+    <item drawable="monument_valley" name="纪念碑谷" />
+    <item drawable="crazy_zoo" name="疯狂动物园" />
+    <item drawable="angrybrids_2" name="疯狂的小鸟2" />
+    <item drawable="diwurenge" name="第五人格" />
+    <item drawable="piano_tiles_2" name="钢琴块2" />
+    <item drawable="clash_of_clans" name="部落冲突" />
+    <item drawable="clash_royale" name="皇室战争" />
+    <item drawable="rolling_sky_1" name="滚动的天空1" />
+    <item drawable="rolling_sky_2" name="滚动的天空2" />
+    <item drawable="arrowio" name="弓箭手大作战" />
+    <item drawable="cell_connect" name="细胞连接" />
+    <item drawable="qiuqiudazuozhan" name="球球大作战" />
+    <item drawable="wanba" name="玩吧" />
+    <item drawable="asphalt_9" name="狂野飙车9" />
+    <item drawable="asphalt_9_1" name="狂野飙车9" />
+    <item drawable="asphalt_9_2" name="狂野飙车9" />
+    <item drawable="asphalt_9_3" name="狂野飙车9" />
+    <item drawable="gaydorado" name="恋爱彩虹城" />
+    <item drawable="gaydorado_1" name="Gaydorado" />
+    <item drawable="yuanqiqishi" name="元气骑士" />
+    <item drawable="boombeach" name="海岛奇兵" />
+    <item drawable="maohelaoshu" name="猫和老鼠" />
+    <item drawable="maohelaoshu_1" name="猫和老鼠" />
+
+
+
+    <category title="一加" />
+    <item drawable="ic_clock" name="时钟" />
+    <item drawable="ic_oppo_store" name="商店" />
+    <item drawable="ic_camera" name="相机" />
+    <item drawable="ic_weather_default" name="天气" />
+    <item drawable="ic_browser" name="浏览器" />
+    <item drawable="ic_amap" name="地图" />
+    <item drawable="ic_recorder" name="录制" />
+    <item drawable="ic_simcard" name="SIM工具" />
+    <item drawable="ic_community_cn" name="社区" />
+    <item drawable="ic_moving" name="移动" />
+    <item drawable="ic_buscard" name="公交卡" />
+    <item drawable="ic_shotononeplus" name="快照" />
+    <item drawable="ic_store" name="商店" />
+    <item drawable="ic_setting" name="设置" />
+    <item drawable="h2os_calendar_d7" name="日历" />
+    <item drawable="ic_brickmode" name="禅定模式" />
+
+
+
+</resources>

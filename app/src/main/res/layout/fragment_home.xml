@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_text"
+                android:textSize="22sp"
+                android:padding="8dp"/>
+
+
+            <TextView
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_text"
+                android:textSize="16sp"
+                android:padding="6dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/iconsPage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/colorPrimaryDark"
+                android:foreground="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/iconsIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_dashboard_black_24dp"/>
+
+                <TextView
+                    android:id="@+id/iconText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="2dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/icons"
+                    android:layout_toRightOf="@+id/iconsIcon"/>
+
+                <TextView
+                    android:id="@+id/iconNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="2dp"
+                    android:paddingStart="10dp"
+                    android:layout_below="@+id/iconText"
+                    android:layout_toRightOf="@+id/iconsIcon"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/newDialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/colorPrimaryDark"
+                android:foreground="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/newIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_local_florist_black_24dp"/>
+
+                <TextView
+                    android:id="@+id/newText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="2dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/new_icons_num"
+                    android:layout_toRightOf="@+id/newIcon"/>
+
+                <TextView
+                    android:id="@+id/newNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="2dp"
+                    android:paddingStart="10dp"
+                    android:layout_below="@+id/newText"
+                    android:layout_toEndOf="@+id/newIcon"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/cardPager"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="200dp"
+            android:clipChildren="false" />
+
+        <TextView
+            android:id="@+id/whatsNewAdaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_text"
+            android:textSize="18sp"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:visibility="gone"
+            android:text="更新了哪些图标"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/updateIcons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/whatsAdaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_text"
+            android:textSize="18sp"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:visibility="gone"
+            android:text="新适配设备上哪些图标"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/adaptationIcons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/contribute"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/primary"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="4dp"
+            android:focusable="true" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_gra_background"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/adaptionNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="16dp"
+                    android:text="对本设备新适配了0应用"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.505"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="请作者喝一杯咖啡吧~"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:drawableStart="@drawable/ic_local_cafe_white_24dp"
+                    android:drawablePadding="8dp"
+                    android:layout_marginBottom="26dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/adaptionNumber" />
+
+                <ImageView
+                    android:id="@+id/contributeClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_close_white_24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/openResource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:drawablePadding="9dp"
+            android:drawableEnd="@drawable/ic_launch_black_24dp"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:text="@string/home_link_string"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

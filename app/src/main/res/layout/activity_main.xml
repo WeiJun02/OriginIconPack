@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_height="260dp"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:fitsSystemWindows="true"
+        android:stateListAnimator="@animator/appbar_always_elevated">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:background="@color/white"
+            app:contentScrim="@color/white"
+            android:fitsSystemWindows="true">
+
+            <FrameLayout
+                android:id="@+id/refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_collapseMode="parallax"
+                android:fitsSystemWindows="true">
+
+                <ImageView
+                    android:id="@+id/headImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription"
+                    android:fitsSystemWindows="true"
+                    android:background="?attr/colorAccent"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/search_box" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="36dp">
+
+                        <ImageView
+                            android:id="@+id/icon1"
+                            android:layout_width="0dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="1"
+                            android:layout_margin="16dp"
+                            android:scaleType="fitCenter"/>
+
+                        <ImageView
+                            android:id="@+id/icon2"
+                            android:layout_width="0dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="1"
+                            android:layout_margin="16dp"
+                            android:scaleType="fitCenter"/>
+
+                        <ImageView
+                            android:id="@+id/icon3"
+                            android:layout_width="0dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="1"
+                            android:layout_margin="16dp"
+                            android:scaleType="fitCenter"/>
+
+                        <ImageView
+                            android:id="@+id/icon4"
+                            android:layout_width="0dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="1"
+                            android:layout_margin="16dp"
+                            android:scaleType="fitCenter"/>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                android:theme="@style/AppTheme.PopupOverlay"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:layout_marginBottom="42dp">
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                app:layout_collapseMode="pin"
+                android:gravity="center_vertical"
+                android:layout_gravity="bottom"
+                app:tabSelectedTextColor="@color/colorAccent"
+                app:tabTextColor="@color/black_text"
+                app:tabIndicatorColor="@color/white"
+                app:tabMode="scrollable"
+                app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+                app:tabIndicatorHeight="3dp"
+                app:tabPaddingBottom="10dp"
+                app:tabPaddingStart="6dp"
+                app:tabPaddingEnd="6dp">
+
+            </com.google.android.material.tabs.TabLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search_white_24dp"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/pager"
+        app:layout_anchorGravity="bottom|right"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

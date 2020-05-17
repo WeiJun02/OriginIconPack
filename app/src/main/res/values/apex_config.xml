@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic theme information -->
+    <string name="theme_title">@string/app_name</string>
+    <string name="developer_name">And</string>
+    <bool name="config_iconpack">true</bool>
+    <bool name="config_apexskin">false</bool>
+    <string-array name="icon_pack" translatable="false" />
+</resources>

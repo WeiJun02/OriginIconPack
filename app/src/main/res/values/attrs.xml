@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="fastScrollAlwaysEnabled" format="boolean"/>
+        <attr name="fastScrollThumbCurvatureEnabled" format="boolean"/>
+        <attr name="fastScrollThumbActiveColor" format="reference|color"/>
+        <attr name="fastScrollThumbInactiveColor" format="reference|color"/>
+        <attr name="fastScrollTrackColor" format="reference|color"/>
+        <attr name="fastScrollPopupBackgroundColor" format="reference|color"/>
+        <attr name="fastScrollPopupTextColor" format="reference|color"/>
+        <attr name="fastScrollHideDelay" format="integer"/>
+        <attr name="fastScrollTextSize" format="dimension"/>
+        <attr name="fastScrollPopupPadding" format="dimension"/>
+    </declare-styleable>
+
+</resources>

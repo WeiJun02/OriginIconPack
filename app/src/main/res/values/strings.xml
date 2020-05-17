@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">Origin图标包</string>
+    <string name="action_settings">设置</string>
+
+    <string name="extraapp">com.momocode.shortcuts</string>
+
+    <string name="home_title">源 图标包</string>
+    <string name="home_subtitle">满足你的强迫症</string>
+
+    <!-- 这里可以改为捐赠信息 -->
+    <!-- home_link_string: 请求捐赠的一句话 -->
+    <!-- home_link：捐赠链接 -->
+    <string name="home_link_string">访问开源地址</string>
+    <string name="home_link">https://github.com/hujincan/AndIconpack/</string>
+
+    <!-- 新增图标数量 -->
+    <string name="new_icons">16</string>
+
+    <!-- 作者信息 -->
+    <string name="designer_name">Blank</string>
+    <string name="designer_message">图标包创作者</string>
+    <string name="mail">2543767572@qq.com</string>
+
+    <!-- 手动解析二维码获得地址中的参数，例如 https://qr.alipay.com/tsx083367dghotyahi8lq2e 最后那段 -->
+    <string name="alipay_code" translatable="false">fkx03317joomb6rkznz4he0</string>
+
+    <!-- 更新了啥？ -->
+    <string name="update_content" translatable="false">•  懒得写啦，康康酷安的更新信息吧</string>
+
+
+    <!-- 更多信息前往main/java/packageName/AboutFragment.java 修改 -->
+
+
+    <string name="no_store">没有可用的应用商店</string>
+
+    <string name="download">下载</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+
+    <string name="send_mail_please">请发送Mail，邮箱账号已复制到剪贴板</string>
+    <string name="send_mail_to">发送至..</string>
+    <string name="no_choose_app">没有选中任何应用程序</string>
+    <string name="get_permission">请到设置授予存储空间权限</string>
+    <string name="need_permission">请转到设置授予权限，否则无法正常使用</string>
+
+    <!-- 主页 Tabs -->
+    <string name="home">主页</string>
+    <string name="icons">图标</string>
+    <string name="icon_adapter">适配</string>
+    <string name="apply">应用</string>
+    <string name="about">关于</string>
+
+    <string name="adapter">适配&#160;</string>
+    <string name="not_adapter">未适配&#160;</string>
+
+    <string name="developer">仪表盘开发者</string>
+    <string name="adapter_not">未适配0个</string>
+    <string name="adapter_number">适配0个</string>
+
+    <string name="for_app_star">请为此应用评分</string>
+    <string name="feel_good_a">如果觉得很棒，请给它5颗星</string>
+    <string name="feel_good_b">您的评价很重要，点击下方跳转评分</string>
+
+    <string name="new_icons_num">新增</string>
+
+    <string name="search">搜索</string>
+
+    <string name="search_icon">搜索图标..</string>
+
+    <string name="whats_update">更新了啥？</string>
+
+    <string name="official">正式版</string>
+
+    <string name="gnl_title">不兼容谷歌即时桌面</string>
+
+    <string name="transition_icon" translatable="false">transition_icon</string>
+
+    <string name="gnl_content">谷歌即时桌面与图标包是不可兼容的，但请不要因此给予这个图标包负面的评价。有一个解决方法你可以尝试，但这需要使用到一个外部应用，你想要下载它吗?
+    </string>
+
+    <string name="lg_dialog_content">非常抱歉，因为“LG HOME APP”是LG设备的专用应用，所以无法从谷歌应用商店上下载到它
+    </string>
+
+    <string name="no_launcher_intent">无法在桌面上自动生成应用图标，请在桌面设置中手动设置</string>
+    <!-- LauncherNotInstalled Dialog -->
+    <string name="lni_content">%1$s 你的设备当前没有安装，\n你想要从谷歌应用商店上安装它吗？
+    </string>
+    <string name="cm_dialog_content">%1$s 是CyanogenMod（based） Roms 的一部分，\n你想要将它下载到你的设备上吗？
+    </string>
+
+</resources>

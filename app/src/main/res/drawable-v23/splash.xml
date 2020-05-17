@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--背景色-->
+<item android:drawable="@color/white" />
+<item android:width="256px" android:height="256px" android:gravity="center">
+    <!--图片-->
+    <bitmap
+        android:src="@drawable/logo_start">
+    </bitmap>
+</item>
+</layer-list>
