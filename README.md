@@ -1,9 +1,8 @@
 # OriginIconPack
 [![](https://img.shields.io/badge/Download-Coolapk-brightgreen.svg)](https://www.coolapk.com/apk/com.origin.icon.pack)
-![](https://img.shields.io/github/license/Oblatum/Oblatum_IconPack.svg)
-![](https://img.shields.io/badge/api-16+-green.svg)
+![](https://img.shields.io/badge/api-22+-green.svg)
 ![](https://img.shields.io/badge/release-5.5-green.svg)
-![](https://img.shields.io/badge/icons-713-orange.svg)
+![](https://img.shields.io/badge/icons-300-orange.svg)
 [![Donate](https://img.shields.io/badge/donate-Alipay|WeChat|TenPay-blue.svg)](http://pay.hotapp.cn/)
 
 **Origin图标包 基于[AndIconpack仪表盘](https://github.com/hujincan/AndIconpack)**
