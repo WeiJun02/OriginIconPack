@@ -14,7 +14,7 @@
 
 <img src="http://image.coolapk.com/apk_image/2019/0607/23/-2-220319-o_1dcp8160uj0blb11tctcgvhchq-uid-874616@1080x1920.png.t.jpg"/>  <img src="http://image.coolapk.com/apk_image/2019/0318/13/c028cb3ab9ef7ce1f8c007cff7b338ab-220319-o_1d67jrlth1ue81b1a1ivt192t1p2is-uid-874616@1080x1920.png.t.jpg"/>  <img src="http://image.coolapk.com/apk_image/2019/0318/13/9031654615df601f1506bd1de59c2400-220319-o_1d67jrltf1pf8a3m44vs191n9or-uid-874616@1080x1920.png.t.jpg"/>
 
-[![联系我](https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91-QQ%E7%BE%A4-lightgrey)](http://pay.hotapp.cn/)
+[![联系我](https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91-QQ%E7%BE%A4-lightgrey)](//shang.qq.com/wpa/qunwpa?idkey=b84ad156e9d6dc26527756186a062545b759ad95d7adaa46660f010950210fac)
 
 酷安发布主页：<https://www.coolapk.com/apk/com.origin.icon.pack>
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=b84ad156e9d6dc26527756186a062545b759ad95d7adaa46660f010950210fac"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="BlacksoftTechClub  🇨🇳加" title="BlacksoftTechClub  🇨🇳加"></a>
