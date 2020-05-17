@@ -18,4 +18,4 @@
 
 酷安发布主页：<https://www.coolapk.com/apk/com.origin.icon.pack>
 
-[![BlacksoftTechClub  🇨🇳加](pub.idqqimg.com/wpa/images/group.png "BlacksoftTechClub  🇨🇳加")](//shang.qq.com/wpa/qunwpa?idkey=b84ad156e9d6dc26527756186a062545b759ad95d7adaa46660f010950210fac)
+[![BlacksoftTechClub  🇨🇳加](pub.idqqimg.com/wpa/images/group.png)](//shang.qq.com/wpa/qunwpa?idkey=b84ad156e9d6dc26527756186a062545b759ad95d7adaa46660f010950210fac)
