@@ -17,6 +17,6 @@
 ![](https://img.shields.io/badge/chat-QQ-green.svg?longCache=true&style=social)
 ![](https://img.shields.io/github/watchers/Oblatum/Oblatum_Iconpack.svg?style=social&label=Watch)
 
-![1263097055@qq.com](https://img.shields.io/badge/Mail-PzHown-green.svg?longCache=true&style=social)
+![2543767572@qq.com](https://img.shields.io/badge/Mail-Blank-green.svg?longCache=true&style=social)
 
 酷安发布主页：<https://www.coolapk.com/apk/com.origin.icon.pack>
