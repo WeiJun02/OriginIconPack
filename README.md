@@ -14,5 +14,9 @@
 
 <img src="http://image.coolapk.com/apk_image/2019/0607/23/-2-220319-o_1dcp8160uj0blb11tctcgvhchq-uid-874616@1080x1920.png.t.jpg"/>  <img src="http://image.coolapk.com/apk_image/2019/0318/13/c028cb3ab9ef7ce1f8c007cff7b338ab-220319-o_1d67jrlth1ue81b1a1ivt192t1p2is-uid-874616@1080x1920.png.t.jpg"/>  <img src="http://image.coolapk.com/apk_image/2019/0318/13/9031654615df601f1506bd1de59c2400-220319-o_1d67jrltf1pf8a3m44vs191n9or-uid-874616@1080x1920.png.t.jpg"/>
 
+![](https://img.shields.io/badge/chat-QQ-green.svg?longCache=true&style=social)
+![](https://img.shields.io/github/watchers/Oblatum/Oblatum_Iconpack.svg?style=social&label=Watch)
+
+![1263097055@qq.com](https://img.shields.io/badge/Mail-PzHown-green.svg?longCache=true&style=social)
 
 酷安发布主页：<https://www.coolapk.com/apk/com.origin.icon.pack>
