@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/api-16+-green.svg)
 ![](https://img.shields.io/badge/release-2.4.7-green.svg)
 ![](https://img.shields.io/badge/icons-713-orange.svg)
-[![Donate](https://img.shields.io/badge/donate-Alipay|WeChat|TenPay-blue.svg)](http://pay.hotapp.cn/25674636)
+[![Donate](https://img.shields.io/badge/donate-Alipay|WeChat|TenPay-blue.svg)](http://pay.hotapp.cn/)
 
 **Origin图标包 基于[AndIconpack仪表盘](https://github.com/hujincan/AndIconpack)**
 
