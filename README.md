@@ -1,5 +1,5 @@
 # OriginIconPack
-[![](https://img.shields.io/badge/download-coolapk-brightgreen.svg)](https://www.coolapk.com/apk/com.origin.icon.pack)
+[![](https://img.shields.io/badge/下载-酷安-brightgreen.svg)](https://www.coolapk.com/apk/com.origin.icon.pack)
 ![](https://img.shields.io/github/license/Oblatum/Oblatum_IconPack.svg)
 ![](https://img.shields.io/badge/api-16+-green.svg)
 ![](https://img.shields.io/badge/release-2.4.7-green.svg)
