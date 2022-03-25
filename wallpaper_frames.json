@@ -9,10 +9,10 @@
 		"collections": "landscapes"
 	},
 	{
-		"name": "ShotA",
+		"name": "Material 1",
 		"author": "Someone",
-		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/58ec66ca6c842.jpg",
-		"collections": "featured,landscapes,people"
+		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_md_1.jpg",
+		"collections": "material"
 	},
 	{
 		"name": "ShotB",
