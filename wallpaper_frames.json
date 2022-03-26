@@ -6,22 +6,6 @@
 		"collections": "material"
 	},
 	{
-		"name": "ShotB",
-		"author": "Someone",
-		"url": "https://raw.githubusercontent.com/jahirfiquitiva/MinDesigns-Wallpapers/master/Wallpapers/Free/walla.png",
-		"dimensions": "3200x2560",
-		"collections": "people,city",
-		"downloadable": false
-	},
-	{
-		"author": "Someone",
-		"url": "https://raw.githubusercontent.com/jahirfiquitiva/MinDesigns-Wallpapers/master/Wallpapers/Free/wallb.jpg",
-		"name": "ShotC",
-		"dimensions": "1280x720",
-		"copyright": "Credits to its creator",
-		"collections": "landscapes,city"
-	},
-	{
 		"name": "Wallsplash 1",
 		"author": "wallsplash",
 		"url": "https://github.com/jahirfiquitiva/Website-Resources/raw/master/wallpapers/unsplash_a.png",
