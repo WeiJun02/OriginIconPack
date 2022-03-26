@@ -6,13 +6,21 @@
 		"collections": "material"
 	},
 	{
+		"name": "Natual 1",
+		"author": "wallsplash",
+		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_natual_1.png",
+		"dimensions": "2479x3343",
+		"copyright": "BlackSoft",
+		"collections": "natual,scenery",
+		"featured": true
+	},
+	{
 		"name": "Wallsplash 1",
 		"author": "wallsplash",
-		"url": "https://github.com/jahirfiquitiva/Website-Resources/raw/master/wallpapers/unsplash_a.png",
-		"thumbnail": "https://github.com/jahirfiquitiva/Website-Resources/raw/master/wallpapers/thumbnails/unsplash_a.png",
-		"dimensions": "3200x2560",
-		"copyright": "Free (do whatever you want)",
-		"collections": "featured,landscapes,people,city",
+		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_natual_1.png",
+		"dimensions": "3344x2479",
+		"copyright": "BlackSoft",
+		"collections": "natual,scenery",
 		"featured": true
 	}
 ]
