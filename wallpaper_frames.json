@@ -1,20 +1,12 @@
 [
  {
-		"name": "Material 1",
-		"author": "Unknown",
-		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_md_1.jpg",
-		"collections": "material"
+	"name": "Material 1",
+	"author": "Unknown",
+	"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_md_1.jpg",
+	"collections": "material"
   },
   {
     "name": "First Wallpaper",
     "url": "https://www.example.com/first-wallpaper.png"
   },
-  {
-    "name": "Second Wallpaper",
-    "url": "https://www.example.com/second-wallpaper.png"
-  },
-  {
-    "name": "Third Wallpaper",
-    "url": "https://www.example.com/third-wallpaper.png"
-  }
 ]
