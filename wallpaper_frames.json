@@ -5,22 +5,4 @@
 		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_md_1.jpg",
 		"collections": "material"
 	},
-	{
-		"name": "Natual 1",
-		"author": "Blank",
-		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_natual_1.png",
-		"dimensions": "2479x3343",
-		"copyright": "BlackSoft",
-		"collections": "natual,scenery",
-		"featured": true
-	},
-	{
-		"name": "Natual 2 ",
-		"author": "Blank",
-		"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_natual_2.png",
-		"dimensions": "3344x2479",
-		"copyright": "BlackSoft",
-		"collections": "natual,scenery",
-		"featured": true
-	}
 ]
