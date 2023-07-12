@@ -1,12 +1,13 @@
 [
  {
-	"name": "Material 1",
-	"author": "Unknown",
-	"url": "https://raw.githubusercontent.com/WeiJun02/WeiJun02.github.io/main/img/wp_md_1.jpg",
+	"name": "Wallpaper 1",
+	"author": "什么什么鼠标",
+	"url": "https://image.coolapk.com/picture/2019/1214/14/2962599_6564_4189@2600x2600.jpg",
 	"collections": "material"
   },
   {
-    "name": "First Wallpaper",
-    "url": "https://www.example.com/first-wallpaper.png"
+    "name": "Wallpaper 2",
+"author": "什么什么鼠标",
+    "url": "https://image.coolapk.com/picture/2019/1211/09/2962599_6289_9734@1200x2400.jpg"
   },
 ]
